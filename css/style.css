@@ -1,0 +1,252 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&display=swap');
+
+.d-none{
+  display: none !important;
+}
+
+/* ---------------------------------------------------------- */
+
+#header .content-box{
+  height: 80px;
+  width: 960px;
+  margin: auto;
+  position: relative;
+  display: flex;
+}
+
+  #header .content-box>h1{
+    padding-left: 15px;
+  }
+
+.main-menu>ul{
+  position: absolute;
+  font-size: 20px;
+  font-family: 'Do Hyeon', sans-serif, AppleSDGothicNeo-Regular;
+  top: 35px;
+  left: 230px;
+  display: flex;
+}
+
+  .main-menu>ul li{
+    border-radius: 15px;
+    border: 3px solid #ff0000;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .main-menu>ul li:nth-child(2){
+    margin-left: 30px;
+  }
+
+  .main-menu>ul li a{
+    text-decoration: none;
+  }
+
+.member-menu>ul{
+  position: absolute;
+  font-size: 13px;
+  font-family: 'Nanum Gothic', sans-serif, AppleSDGothicNeo-Regular;
+  top: 40px;
+  right: 0px;
+  display: flex;
+}
+  .member-menu>ul>li{
+    background: url("../img/bg-main-menu-vsp.png") no-repeat 12px center;
+    padding-left: 24px;
+  }
+  .member-menu>ul>li:first-child{
+    background: none;
+    padding-left: 0px;
+  }
+
+#visual>.content-container{
+  height: 320px;
+  background: url("../img/banner.jpg") no-repeat center;
+}
+
+#main>.content-box{
+  width: 960px;
+  border-bottom: 1px solid #ff0000;
+  display: flex;
+  margin: auto;
+}
+
+#main .news{
+  width: 240px;
+  padding: 15px;
+  border-right: 1px solid #ff0000;
+}
+
+  #main .news h1{
+    font-family: 'Do Hyeon', sans-serif, AppleSDGothicNeo-Regular;
+    font-size: 20px;
+    margin-bottom: 10px;
+    height: 28px;
+  }
+
+    #main .news .list{
+      font-size: 12px;
+      font-family: 'Nanum Gothic', sans-serif, AppleSDGothicNeo-Regular;
+    }
+
+      #main .news .list li{
+        margin-top: 5px;
+      }
+        #main .news .list li .news-title{
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          vertical-align: middle;
+          padding-left: 2px;
+          margin-right: 10px;
+          display: inline-block;
+          width: 125px;
+        }
+
+#main .top-post{
+  width: 500px;
+  padding: 15px;
+  border-right: 1px solid #ff0000;
+}
+
+  #main .top-post h1{
+    font-family: 'Do Hyeon', sans-serif, AppleSDGothicNeo-Regular;
+    font-size: 20px;
+    margin-bottom: 10px;
+    height: 28px;
+  }
+
+    #main .top-post .list{
+      font-size: 12px;
+      font-family: 'Nanum Gothic', sans-serif, AppleSDGothicNeo-Regular;
+    }
+
+      #main .top-post .list li{
+        margin-top: 5px;
+        margin-right: 3px;
+      }
+
+        #main .top-post .list li .post-title{
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          vertical-align: middle;
+          padding-left: 2px;
+          display: inline-block;
+          width: 345px;
+        }
+
+        #main .top-post .list li .post-title+span{
+          display: inline-block;
+          margin-left: 35px;
+        }
+
+  #main .chart{
+    width: 220px;
+    padding: 15px;
+  }
+
+    #main .chart h1{
+      font-family: 'Do Hyeon', sans-serif, AppleSDGothicNeo-Regular;
+      font-size: 20px;
+      margin-bottom: 10px;
+      height: 28px;
+    }
+
+      #main .chart .list{
+        font-size: 12px;
+        font-family: 'Nanum Gothic', sans-serif, AppleSDGothicNeo-Regular;
+      }
+
+        #main .chart .list li{
+          margin-top: 5px;
+        }
+
+          #main .chart .list li span{
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            vertical-align: middle;
+          }
+
+          #main .chart .list li .song{
+            width: 95px;
+            margin-right: 10px;
+            display: inline-block;
+          }
+
+            #main .chart .list li .artist{
+              color: gray;
+              width: 60px;
+              margin-right: 5px;
+              display: inline-block;
+            }
+
+#main .content-box+.content-box{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-bottom: none;
+}
+
+  #main .shortcut-list{
+    margin: auto;
+  }
+
+    #main .shortcut-icon{
+      display: flex;
+    }
+      #main .shortcut-icon li{
+        text-align: center;
+        border: 2px dashed gray;
+        border-radius: 15px;
+        height: 30px;
+        width: 180px;
+        margin: 10px;
+        padding: 5px;
+      }
+        #main .shortcut-icon li span{
+          font-size: 18px;
+          font-family: 'Do Hyeon', sans-serif, AppleSDGothicNeo-Regular;
+          color: gray;
+        }
+
+#footer{
+  background: #2E2E2E;
+}
+
+  #footer .content-box{
+    margin: auto;
+    width: 960px;
+    height: 80px;
+    display: flex;
+  }
+
+    #footer .content-box h1{
+      margin-left: 10px;
+      padding: 0px;
+    }
+
+    #footer .content-box .company-info{
+      display: flex;
+      flex-flow: column;
+      font-family: 'Nanum Gothic', sans-serif, AppleSDGothicNeo-Regular;
+      font-size: 10px;
+      color: white;
+      margin-left: 100px;
+      padding: 15px;
+    }
+
+      #footer .content-box .company-info dl{
+        display: flex;
+        flex-flow: row wrap;
+        padding: 5px;
+      }
+
+        #footer .content-box .company-info dl dd{
+          margin-right: 15px;
+        }
+
+      #copyright{
+        padding: 5px;
+      }
