@@ -7,16 +7,24 @@
 
 /* ---------------------------------------------------------- */
 
+/* height 937 */
+
+html, body{
+	height: 100%;
+  position: relative;
+}
+
 #header .content-box{
-  height: 80px;
-  width: 960px;
+  height: 100px;
+  --height: 80px;
+  width: 1200px;
   margin: auto;
   position: relative;
   display: flex;
 }
 
   #header .content-box>h1{
-    padding-left: 15px;
+    padding: 10px;
   }
 
 .main-menu>ul{
@@ -61,32 +69,33 @@
   }
 
 #visual>.content-container{
-  height: 320px;
+  height: 400px;
   background: url("../img/banner.jpg") no-repeat center;
+  background-size: 1200px auto;
 }
 
 #main>.content-box{
-  width: 960px;
+  width: 1200px;
   border-bottom: 1px solid #ff0000;
   display: flex;
   margin: auto;
 }
 
 #main .news{
-  width: 240px;
+  width: 300px;
   padding: 15px;
   border-right: 1px solid #ff0000;
 }
 
   #main .news h1{
     font-family: 'Do Hyeon', sans-serif, AppleSDGothicNeo-Regular;
-    font-size: 20px;
-    margin-bottom: 10px;
-    height: 28px;
+    font-size: 28px;
+    margin-bottom: 15px;
+    height: 30px;
   }
 
     #main .news .list{
-      font-size: 12px;
+      font-size: 15px;;
       font-family: 'Nanum Gothic', sans-serif, AppleSDGothicNeo-Regular;
     }
 
@@ -101,24 +110,24 @@
           padding-left: 2px;
           margin-right: 10px;
           display: inline-block;
-          width: 125px;
+          width: 170px;
         }
 
 #main .top-post{
-  width: 500px;
+  width: 600px;
   padding: 15px;
   border-right: 1px solid #ff0000;
 }
 
   #main .top-post h1{
     font-family: 'Do Hyeon', sans-serif, AppleSDGothicNeo-Regular;
-    font-size: 20px;
-    margin-bottom: 10px;
-    height: 28px;
+    font-size: 28px;;
+    margin-bottom: 15px;
+    height: 30px;
   }
 
     #main .top-post .list{
-      font-size: 12px;
+      font-size: 15px;
       font-family: 'Nanum Gothic', sans-serif, AppleSDGothicNeo-Regular;
     }
 
@@ -134,28 +143,28 @@
           vertical-align: middle;
           padding-left: 2px;
           display: inline-block;
-          width: 345px;
+          width: 400px;
         }
 
         #main .top-post .list li .post-title+span{
           display: inline-block;
-          margin-left: 35px;
+          margin-left: 50px;
         }
 
   #main .chart{
-    width: 220px;
+    width: 300px;
     padding: 15px;
   }
 
     #main .chart h1{
       font-family: 'Do Hyeon', sans-serif, AppleSDGothicNeo-Regular;
-      font-size: 20px;
-      margin-bottom: 10px;
-      height: 28px;
+      font-size: 28px;
+      margin-bottom: 15px;
+      height: 30px;
     }
 
       #main .chart .list{
-        font-size: 12px;
+        font-size: 15px;
         font-family: 'Nanum Gothic', sans-serif, AppleSDGothicNeo-Regular;
       }
 
@@ -171,21 +180,21 @@
           }
 
           #main .chart .list li .song{
-            width: 95px;
+            width: 140px;
             margin-right: 10px;
             display: inline-block;
           }
 
             #main .chart .list li .artist{
               color: gray;
-              width: 60px;
+              width: 90px;
               margin-right: 5px;
               display: inline-block;
             }
 
 #main .content-box+.content-box{
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-bottom: none;
 }
 
@@ -200,26 +209,30 @@
         text-align: center;
         border: 2px dashed gray;
         border-radius: 15px;
-        height: 30px;
-        width: 180px;
+        height: 40px;
+        width: 220px;
         margin: 10px;
         padding: 5px;
       }
         #main .shortcut-icon li span{
-          font-size: 18px;
+          display: inline-block;
+          vertical-align: middle;
+          font-size: 22px;
           font-family: 'Do Hyeon', sans-serif, AppleSDGothicNeo-Regular;
           color: gray;
         }
 
 #footer{
   background: #2E2E2E;
+  margin-bottom: 0px;
+  bottom: 0px;
 }
 
   #footer .content-box{
     margin: auto;
-    width: 960px;
-    height: 80px;
     display: flex;
+    height: 100px;
+    width: 1200px;
   }
 
     #footer .content-box h1{
@@ -231,7 +244,7 @@
       display: flex;
       flex-flow: column;
       font-family: 'Nanum Gothic', sans-serif, AppleSDGothicNeo-Regular;
-      font-size: 10px;
+      font-size: 13px;
       color: white;
       margin-left: 100px;
       padding: 15px;
